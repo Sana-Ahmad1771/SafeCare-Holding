@@ -117,7 +117,7 @@ const WelcomeToMedical = () => {
                     placeholder="Your Name"
                     value={formData.name}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#33A9EE]"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-main"
                     required
                   />
                 </div>
@@ -129,7 +129,7 @@ const WelcomeToMedical = () => {
                     placeholder="Email Address"
                     value={formData.email}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#33A9EE]"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-main"
                     required
                   />
                 </div>
@@ -140,7 +140,7 @@ const WelcomeToMedical = () => {
                       name="day"
                       value={formData.day}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#33A9EE]"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-main"
                       required
                     >
                       <option value="">Day</option>
@@ -158,7 +158,7 @@ const WelcomeToMedical = () => {
                       name="time"
                       value={formData.time}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#33A9EE]"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-main"
                       required
                     >
                       <option value="">Time</option>
@@ -173,7 +173,7 @@ const WelcomeToMedical = () => {
                       name="doctorname"
                       value={formData.doctorname}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#33A9EE]"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-main"
                       required
                     >
                       <option value="">Doctor Name</option>
@@ -192,7 +192,7 @@ const WelcomeToMedical = () => {
                     rows="4"
                     value={formData.message}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#33A9EE]"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-main"
                   ></textarea>
                 </div>
 
