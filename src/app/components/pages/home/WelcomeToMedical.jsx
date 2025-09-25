@@ -33,15 +33,15 @@ const WelcomeToMedical = () => {
           {/* Left Content Section */}
           <div className="lg:w-1/2">
             <div className="text-center lg:text-left">
-              <h2 className="text-3xl lg:text-4xl font-bold text-[#0F89D1] uppercase mb-4">
+              <h2 className="text-3xl lg:text-4xl font-bold text-main uppercase mb-4">
                 Welcome to Medical
               </h2>
 
               {/* Three dots indicator */}
               <div className="flex justify-center lg:justify-start space-x-2 mb-6">
-                <span className="w-3 h-3 rounded-full bg-[#33A9EE]"></span>
-                <span className="w-3 h-3 rounded-full bg-[#33A9EE]"></span>
-                <span className="w-3 h-3 rounded-full bg-[#33A9EE]"></span>
+                <span className="w-3 h-3 rounded-full bg-main"></span>
+                <span className="w-3 h-3 rounded-full bg-main"></span>
+                <span className="w-3 h-3 rounded-full bg-main"></span>
               </div>
 
               <p className="text-gray-600 mb-10 leading-relaxed">
@@ -52,9 +52,9 @@ const WelcomeToMedical = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {/* Emergency Services */}
-                <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-[#33A9EE]">
-                  <h3 className="flex items-center gap-2 text-xl font-semibold text-[#0F89D1] mb-3">
-                    <FaAmbulance className="text-[#33A9EE] text-2xl" />
+                <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-main">
+                  <h3 className="flex items-center gap-2 text-xl font-semibold text-main mb-3">
+                    <FaAmbulance className="text-main text-2xl" />
                     EMERGENCY SERVICES
                   </h3>
                   <p className="text-gray-600 text-sm">
@@ -64,9 +64,9 @@ const WelcomeToMedical = () => {
                 </div>
 
                 {/* Qualified Doctors */}
-                <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-[#33A9EE]">
-                  <h3 className="flex items-center gap-2 text-xl font-semibold text-[#0F89D1] mb-3">
-                    <FaUserMd className="text-[#33A9EE] text-2xl" />
+                <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-main">
+                  <h3 className="flex items-center gap-2 text-xl font-semibold text-main mb-3">
+                    <FaUserMd className="text-main text-2xl" />
                     QUALIFIED DOCTORS
                   </h3>
                   <p className="text-gray-600 text-sm">
@@ -76,9 +76,9 @@ const WelcomeToMedical = () => {
                 </div>
 
                 {/* 24/7 Support */}
-                <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-[#33A9EE]">
-                  <h3 className="flex items-center gap-2 text-xl font-semibold text-[#0F89D1] mb-3">
-                    <FaHeadset className="text-[#33A9EE] text-2xl" />
+                <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-main">
+                  <h3 className="flex items-center gap-2 text-xl font-semibold text-main mb-3">
+                    <FaHeadset className="text-main text-2xl" />
                     24/7 SUPPORT
                   </h3>
                   <p className="text-gray-600 text-sm">
@@ -88,9 +88,9 @@ const WelcomeToMedical = () => {
                 </div>
 
                 {/* Online Appointment */}
-                <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-[#33A9EE]">
-                  <h3 className="flex items-center gap-2 text-xl font-semibold text-[#0F89D1] mb-3">
-                    <FaLaptopMedical className="text-[#33A9EE] text-2xl" />
+                <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-main">
+                  <h3 className="flex items-center gap-2 text-xl font-semibold text-main mb-3">
+                    <FaLaptopMedical className="text-main text-2xl" />
                     ONLINE APPOINTMENT
                   </h3>
                   <p className="text-gray-600 text-sm">
@@ -105,7 +105,7 @@ const WelcomeToMedical = () => {
           {/* Right Form Section */}
           <div className="lg:w-[35%]">
             <div className="bg-[#F7F7F7] p-8 rounded-lg shadow-md">
-              <h3 className="text-2xl font-bold text-[#0F89D1] mb-6 text-center">
+              <h3 className="text-2xl font-bold text-main mb-6 text-center">
                 APPOINTMENT FORM
               </h3>
 
@@ -203,18 +203,18 @@ const WelcomeToMedical = () => {
                   </div>
                   <button
                     type="submit"
-                    className="bg-[#33A9EE] w-fit text-white px-5 py-3 rounded-md font-medium hover:bg-[#0F89D1] transition duration-300"
+                    className="bg-main w-fit text-white px-5 py-3 font-medium hover:bg-white hover:text-main transition duration-300"
                   >
-                    Submit Appointment
+                    Submit
                   </button>
                 </div>
               </form>
 
               {/* Three dots indicator at bottom of form */}
               <div className="flex justify-center space-x-2 mt-8">
-                <span className="w-3 h-3 rounded-full bg-[#33A9EE]"></span>
-                <span className="w-3 h-3 rounded-full bg-[#33A9EE]"></span>
-                <span className="w-3 h-3 rounded-full bg-[#33A9EE]"></span>
+                <span className="w-3 h-3 rounded-full bg-main"></span>
+                <span className="w-3 h-3 rounded-full bg-main"></span>
+                <span className="w-3 h-3 rounded-full bg-main"></span>
               </div>
             </div>
           </div>

@@ -12,7 +12,7 @@ const Hero = () => {
         
         {/* Text Content - Left Side */}
         <div className="flex-1 flex flex-col items-center justify-center text-center mb-10 md:mb-0 md:pr-10">
-          <p className="text-[#33A9EE] uppercase tracking-wide mb-2 text-sm sm:text-base lg:text-lg">
+          <p className="text-main uppercase tracking-wide mb-2 text-sm sm:text-base lg:text-lg">
             The Best Hospitality WP Theme Forever!
           </p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-snug">
@@ -22,7 +22,7 @@ const Hero = () => {
             Qualified Staff With Expertise in Services We Offer for more
             reasonable cost with love. Just explore about more!
           </p>
-          <button className="bg-[#33A9EE] text-white px-5 sm:px-6 py-2 sm:py-3 hover:text-[#33A9EE] hover:bg-[#ffffff] transition uppercase font-medium text-sm sm:text-base cursor-pointer">
+          <button className="bg-main text-white px-5 sm:px-6 py-2 sm:py-3 hover:text-main hover:bg-[#ffffff] transition uppercase font-medium text-sm sm:text-base cursor-pointer">
             View Our Services <br /> +
           </button>
         </div>

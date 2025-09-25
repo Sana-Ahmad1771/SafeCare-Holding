@@ -7,7 +7,7 @@ const About = () => {
     <section className="w-full">
       <div className="flex flex-col lg:flex-row w-full">
         {/* Left Section */}
-        <div className="bg-[#33A9EE] w-full py-10 lg:py-20 px-6 lg:px-12 text-white flex justify-center lg:justify-end items-start">
+        <div className="bg-main w-full py-10 lg:py-20 px-6 lg:px-12 text-white flex justify-center lg:justify-end items-start">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-stretch gap-10 w-full max-w-[555px]">
             {/* Emergency Case */}
             <div className="flex-1 space-y-4">
@@ -22,7 +22,7 @@ const About = () => {
                 Dignissimos ducimus qui blanditiis praesentium voluptatum
                 deleniti atque corrupti quos dolores et quas molestias.
               </p>
-              <button className="border border-white px-5 py-2 text-sm sm:text-base font-medium cursor-pointer hover:text-[#33A9EE] hover:bg-white transition">
+              <button className="border border-white px-5 py-2 text-sm sm:text-base font-medium cursor-pointer hover:text-main hover:bg-white transition">
                 More Details
               </button>
             </div>
@@ -40,7 +40,7 @@ const About = () => {
                 Dignissimos ducimus qui blanditiis praesentium voluptatum
                 deleniti atque corrupti quos dolores et quas molestias.
               </p>
-              <button className="border border-white px-5 py-2 text-sm sm:text-base font-medium cursor-pointer hover:text-[#33A9EE] hover:bg-white transition">
+              <button className="border border-white px-5 py-2 text-sm sm:text-base font-medium cursor-pointer hover:text-main hover:bg-white transition">
                 More Details
               </button>
             </div>
@@ -48,16 +48,16 @@ const About = () => {
         </div>
 
         {/* Right Section */}
-        <div className="bg-[#F7F7F7] w-full py-10 lg:py-20 px-6 lg:px-12 text-[#0F89D1] flex justify-center lg:justify-start items-start">
+        <div className="bg-[#F7F7F7] w-full py-10 lg:py-20 px-6 lg:px-12 text-lightblack flex justify-center lg:justify-start items-start">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-stretch gap-10 w-full max-w-[555px]">
             {/* Opening Hours */}
             <div className="flex-1 space-y-4 w-full">
               <div>
                 <h3 className="flex items-center gap-2 text-xl sm:text-2xl font-bold mb-2">
-                  <FaClock className="text-[#0F89D1] text-lg sm:text-xl" />
+                  <FaClock className="text-main text-lg sm:text-xl" />
                   Opening Hours
                 </h3>
-                <div className="border border-[#0F89D1] bg-[#0F89D1] w-6 h-[3px] mb-4"></div>
+                <div className="border border-lightblack bg-lightblack w-6 h-[3px] mb-4"></div>
               </div>
               <div className="space-y-3 text-sm sm:text-base">
                 <div className="flex justify-between border-b pb-2">
@@ -79,16 +79,16 @@ const About = () => {
             <div className="flex-1 space-y-4">
               <div>
                 <h3 className="flex items-center gap-2 text-xl sm:text-2xl font-bold mb-2">
-                  <FaCalendarAlt className="text-[#0F89D1] text-lg sm:text-xl" />
+                  <FaCalendarAlt className="text-main text-lg sm:text-xl" />
                   Doctors Timetable
                 </h3>
-                <div className="border border-[#0F89D1] bg-[#0F89D1] w-6 h-[3px] mb-4"></div>
+                <div className="border border-lightblack bg-lightblack w-6 h-[3px] mb-4"></div>
               </div>
               <p className="text-sm sm:text-base leading-relaxed text-center md:text-left">
                 Dignissimos ducimus qui blanditiis praesentium voluptatum
                 deleniti atque corrupti quos dolores et quas molestias.
               </p>
-              <button className="border border-[#33A9EE] px-5 py-2 text-sm sm:text-base font-medium cursor-pointer hover:text-white hover:bg-[#33A9EE] transition">
+              <button className="border border-main px-5 py-2 text-sm sm:text-base font-medium cursor-pointer hover:text-white hover:bg-main transition">
                 More Details
               </button>
             </div>

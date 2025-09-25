@@ -23,7 +23,7 @@ const Header = () => {
             <FaLinkedinIn color="#999999" size={20} />
           </div>
           {/* CTA Button */}
-          <button className="text-[#337AB7] font-medium px-4 py-1 rounded-md hover:underline transition">
+          <button className="text-main font-medium px-4 py-1 rounded-md hover:underline transition">
             {" "}
             + Book Appointment
           </button>{" "}
@@ -86,7 +86,7 @@ const Header = () => {
       {/* Navigation rows */}
       <div className="w-full flex">
         {/* First row */}
-        <div className="bg-[#2098DF] w-full py-[35px] px-10 lg:px-20">
+        <div className="bg-main w-full py-[35px] px-10 lg:px-20">
           <ul className="flex justify-end items-center space-x-10 text-[12px] md:text-sm text-white pr-4">
             <li>
               <Link href="/" className="hover:text-[#1E3D69]">
@@ -111,7 +111,7 @@ const Header = () => {
           </ul>
         </div>
         {/* Second row */}
-        <div className="bg-[#0F89D1] w-full py-[35px]">
+        <div className="bg-main w-full py-[35px]">
           <ul className="flex justify-start items-center space-x-10 text-[12px] md:text-sm text-white pl-4">
             <li>
               <Link href="/departments" className="hover:text-[#1E3D69]">
