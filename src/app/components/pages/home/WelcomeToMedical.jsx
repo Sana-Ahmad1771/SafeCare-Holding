@@ -103,7 +103,7 @@ const WelcomeToMedical = () => {
           </div>
 
           {/* Right Form Section */}
-          <div className="lg:w-[35%]">
+          <div className="lg:w-1/2">
             <div className="bg-[#F7F7F7] p-8 rounded-lg shadow-md">
               <h3 className="text-2xl font-bold text-main mb-6 text-center">
                 APPOINTMENT FORM
